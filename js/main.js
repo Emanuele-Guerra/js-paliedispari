@@ -1,12 +1,11 @@
-const parola = prompt("inserisci parola");
-    console.log(parola)
-const parolArray = parola.split("");
-    console.log(parolArray);
-
-const parolaReverse = parolArray.reverse();
-    console.log(parolaReverse);
-
-
+let parola = prompt("inserisci parola");
     
+console.log(parola)
+
+
+let parolaReverse = parola.reverse();
+    
+console.log(parolaReverse);
+
 
 
